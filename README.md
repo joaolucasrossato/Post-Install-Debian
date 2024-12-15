@@ -125,3 +125,53 @@ https://docs.docker.com/engine/install/debian/
 
 Kubernetes
 https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/
+
+## Personalização
+```
+sudo sh -c "echo 'deb http://ppa.launchpad.net/papirus/papirus/ubuntu jammy main' > /etc/apt/sources.list.d/papirus-ppa.list"
+sudo wget -qO /etc/apt/trusted.gpg.d/papirus-ppa.asc 'https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x9461999446FAF0DF770BFC9AE58A9D36647CAE7F'
+sudo apt-get update
+sudo apt-get install papirus-icon-theme
+```
+ROOT
+```
+wget -qO- https://git.io/papirus-icon-theme-install | sh
+```
+
+## Programas
+```
+flatpak install flathub org.onlyoffice.desktopeditors
+```
+```
+flatpak install flathub org.mozilla.firefox
+```
+```
+flatpak install flathub com.discordapp.Discord
+```
+```
+flatpak install flathub com.spotify.Client
+```
+```
+flatpak install flathub org.videolan.VLC
+```
+```
+flatpak install flathub com.obsproject.Studio
+```
+```
+flatpak install flathub com.visualstudio.code
+```
+```
+flatpak install flathub com.bitwarden.desktop
+```
+```
+flatpak install flathub com.anydesk.Anydesk
+```
+```
+flatpak install flathub com.github.tchx84.Flatseal
+```
+```
+flatpak install flathub org.flameshot.Flameshot
+```
+```
+flatpak install flathub us.zoom.Zoom
+```
