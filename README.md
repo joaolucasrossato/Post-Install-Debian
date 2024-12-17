@@ -11,12 +11,12 @@ Atualize o kernel do Linux
 apt install linux-image-amd64 linux-headers-amd64 -t bookworm-backports
 ```
 
-Atualizando o firmware do seu processador
+Atualizando o firmware do processador
 ```
 apt install intel-microcode
 ```
 
-Remova pacotes desnecessários, neste caso vamos remover os jogos e o pidgin, mas se vc usa estes aplicativos então pule esta etapa.
+Remover os jogos e o pidgin.
 ```
 apt remove pidgin gnome-games --purge && apt autoremove
 ```
@@ -45,7 +45,7 @@ nano /etc/sysctl.conf
 vm.swappiness=10
 ```
 
-Adicione seu usuário ao grupo sudo
+Adicionando usuário ao grupo sudo
 ```
 apt install sudo
 ```
@@ -53,7 +53,7 @@ apt install sudo
 adduser seu_usuario sudo
 ```
 
-Instale os pacotes de fontes da Micro$oft
+Pacotes de fontes da Micro$oft
 ```
 apt install ttf-mscorefonts-installer && fc-cache -f -v
 ```
@@ -94,8 +94,9 @@ apt install git
 ```
 $ git config --global user.name "Nome de Usuário"
 $ git config --global user.email Email
+# SSh
+ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
-  SSH: https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 Java
 ```
