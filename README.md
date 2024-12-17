@@ -141,10 +141,13 @@ wget -qO- https://git.io/papirus-icon-theme-install | sh
 
 ## Programas
 ```
-flatpak install flathub org.onlyoffice.desktopeditors
+flatpak install flathub com.google.Chrome
 ```
 ```
 flatpak install flathub org.mozilla.firefox
+```
+```
+flatpak install flathub org.onlyoffice.desktopeditors
 ```
 ```
 flatpak install flathub com.discordapp.Discord
@@ -163,6 +166,9 @@ flatpak install flathub com.visualstudio.code
 ```
 ```
 flatpak install flathub com.bitwarden.desktop
+```
+```
+flatpak install flathub org.qbittorrent.qBittorrent
 ```
 ```
 flatpak install flathub com.anydesk.Anydesk
