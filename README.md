@@ -93,7 +93,7 @@ apt install git
 ```
 ```
 $ git config --global user.name "Nome de Usuário"
-$ git config --global user.email Email
+$ git config --global user.email your_email@example.com
 # SSh
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
@@ -115,16 +115,16 @@ Ruby
 apt install ruby-full
 ```
 
-Vagrant
+Vagrant:
 https://developer.hashicorp.com/vagrant/install
 
-Ansible
+Ansible:
 https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.html
 
-Docker
+Docker:
 https://docs.docker.com/engine/install/debian/
 
-Kubernetes
+Kubernetes:
 https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/
 
 ## Personalização
