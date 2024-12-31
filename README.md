@@ -124,9 +124,6 @@ https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.
 Docker:
 https://docs.docker.com/engine/install/debian/
 
-Kubernetes:
-https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/
-
 ## Personalização
 ```
 sudo sh -c "echo 'deb http://ppa.launchpad.net/papirus/papirus/ubuntu jammy main' > /etc/apt/sources.list.d/papirus-ppa.list"
@@ -159,9 +156,6 @@ flatpak install flathub com.spotify.Client
 flatpak install flathub org.videolan.VLC
 ```
 ```
-flatpak install flathub com.obsproject.Studio
-```
-```
 flatpak install flathub com.visualstudio.code
 ```
 ```
@@ -172,9 +166,6 @@ flatpak install flathub org.qbittorrent.qBittorrent
 ```
 ```
 flatpak install flathub com.anydesk.Anydesk
-```
-```
-flatpak install flathub com.github.tchx84.Flatseal
 ```
 ```
 flatpak install flathub org.flameshot.Flameshot
